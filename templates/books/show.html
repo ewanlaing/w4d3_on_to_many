@@ -1,11 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h1>{{book.title}}</h1>
-<h2>{{book.author.name}}</h2>
-<h3>{{book.genre}}</h3>
 
-<p><a href="/books/{{book.id}}/edit">Edit Book</a></p>
+
+    <h1>{{book.title}}</h1>
+    <h2>{{book.author.name}}</h2>
+    <h3>{{book.genre}}</h3>
+    <h1></h1><a href="/books/{{book.id}}/edit">Edit Book</a></h1>
+
 
 {% endblock %}
 
