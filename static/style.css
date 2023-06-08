@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+    font-family: fantasy;
+}
+
+.title{
+    font-size:xx-large;
+    color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
